@@ -32,7 +32,8 @@ var createScene = function () {
 
     // Ground
     var groundMaterial = new BABYLON.StandardMaterial("ground", scene);
-    groundMaterial.diffuseTexture = new BABYLON.Texture('https://upload.wikimedia.org/wikipedia/commons/8/8f/Whole_world_-_land_and_oceans_12000.jpg', scene);
+    //groundMaterial.diffuseTexture = new BABYLON.Texture('https://upload.wikimedia.org/wikipedia/commons/8/8f/Whole_world_-_land_and_oceans_12000.jpg', scene);
+        groundMaterial.diffuseTexture = new BABYLON.Texture('https://thumbs.dreamstime.com/z/animals-world-map-vector-illustration-62418436.jpg', scene);
 
     // groundMaterial.bumpTexture = new BABYLON.Texture('http://localhost:8000/a/AA.jpg', scene);
 
